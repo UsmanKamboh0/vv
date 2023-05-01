@@ -1,5 +1,5 @@
 const express=require('express');
-const { GetAllProduct, AddProduct, DeleteProduct, UpdateProduct, GetProductdetail, deleteReview, getProductReviews, createProductReview, createProduct, getAdminProducts, deleteProduct, updateProduct } = require('../Controller/ProductController');
+const { GetAllProduct, AddProduct, DeleteProduct, UpdateProduct, GetProductdetail, deleteReview, getProductReviews, createProductReview, createProduct, getAdminProducts, deleteProduct, updateProduct } = require('../Controller/productcontroller');
 const { isAnthentication, authorizeRoles } = require('../midleware/auth');
 const router=express.Router();
 
