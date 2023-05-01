@@ -1,7 +1,6 @@
 const express=require('express');
 const { Getallusers, createuser, userdetail, updateuser, loginUser, logout, forgotPassword, resetPassword, updatePassword, getadminuser, getsingleuser, getSingleUser, updateUserRole, deleteUser } = require('../Controller/UserController');
 const { isAnthentication, authorizeRoles } = require('../midleware/auth');
-const { UpdateProduct } = require('../Controller/ProductController');
 
 const router =express.Router();
 
